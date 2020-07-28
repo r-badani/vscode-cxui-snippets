@@ -1,0 +1,39 @@
+{
+    "name": "cxui",
+    "displayName": "CXUI Snippets",
+    "description": "This extension for Visual Studio Code adds snippets of Cisco CXUI Library",
+    "version": "1.0.0",
+    "icon": "images/cxe-ui.png",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "publisher": "rjbadani",
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "CXUI",
+        "CXUI Snippet",
+        "Cisco",
+        "CX-portal",
+        "Customer Portal",
+        "CX Engineering"
+    ],
+    "scripts": {
+        "package": "npx vsce package",
+        "publish": "npx vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/r-badani/cxe-ui.git"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,1 @@
+This extension for Visual Studio Code adds snippets of Cisco CXUI Library
