@@ -46,4 +46,4 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 1. Reload Visual Studio Code
 
 
-This extension is created and maintained by [Rushabh Badani](https://wwwin-github.cisco.com/rubadani) CX, UI Engineer, Toronto, Canada. Email `rubadani@cisco.com` if you find have any issue regarding the extension.
+Email `rubadani@cisco.com` if you find any issue regarding the extension.
