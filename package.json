@@ -1,9 +1,9 @@
 {
-    "name": "cxui",
+    "name": "cxui-snippets",
     "displayName": "CXUI Snippets",
     "description": "This extension for Visual Studio Code adds snippets of Cisco CXUI Library",
     "version": "1.0.0",
-    "icon": "images/cxe-ui.png",
+    "icon": "images/cxui-logo.png",
     "engines": {
         "vscode": "^1.26.0"
     },
