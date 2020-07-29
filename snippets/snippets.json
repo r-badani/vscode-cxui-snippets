@@ -1,213 +1,213 @@
 {
-  "CXUI CheckboxList": {
+	"CXUI CheckboxList": {
 		"prefix": "cxui-checkbox-list",
 		"body": [
-      "<cxui-checkbox-list",
-      "\t#checkboxlist",
-      "\t[listItems]=\"listItems\">",
-      "</cxui-checkbox-list>"
+			"<cxui-checkbox-list",
+			"\t#checkboxlist",
+			"\t[listItems]=\"listItems\">",
+			"</cxui-checkbox-list>"
 		],
 		"description": "CXUI Checkbox list"
-  },
-  "CXUI Checkbox": {
+	},
+	"CXUI Checkbox": {
 		"prefix": "cxui-checkbox",
 		"body": [
-      "<cxui-checkbox",
-      "\t[checked]=\"${1:true|false}\"",
-      "\t(change)=\"checkboxClicked(\\$event)\"",
-      ">",
-      "\t${2:Content}",
-      "</cxui-checkbox>"
+			"<cxui-checkbox",
+			"\t[checked]=\"${1:true|false}\"",
+			"\t(change)=\"checkboxClicked(\\$event)\"",
+			">",
+			"\t${2:Content}",
+			"</cxui-checkbox>"
 		],
 		"description": "CXUI Checkbox"
 	},
-  "CXUI Gauge": {
+	"CXUI Gauge": {
 		"prefix": "cxui-gauge",
 		"body": [
-      "<cxui-gauge",
-      "\t[percentage]=\"${1:50}\"",
-      "\t[outerLabel]=\"'Adoption Progress'\"",
-      "\t[width]=\"96\" <!-- Optional--> ",
-      ">",
-      "</cxui-gauge>"
+			"<cxui-gauge",
+			"\t[percentage]=\"${1:50}\"",
+			"\t[outerLabel]=\"'Adoption Progress'\"",
+			"\t[width]=\"96\" <!-- Optional--> ",
+			">",
+			"</cxui-gauge>"
 		],
 		"description": "CXUI Gauge"
 	},
-  "CXUI Loader": {
+	"CXUI Loader": {
 		"prefix": "cxui-loader",
 		"body": [
-      "<cxui-loader",
-      "\tdots=\"${1:true|false}\"",
-      "\tcolor=\"${2}\"",
-      "\tsize=\"${3:'default' | 'small' | 'large'}\"",
-      ">",
-      "</cxui-loader>"
+			"<cxui-loader",
+			"\tdots=\"${1:true|false}\"",
+			"\tcolor=\"${2}\"",
+			"\tsize=\"${3:'default' | 'small' | 'large'}\"",
+			">",
+			"</cxui-loader>"
 		],
 		"description": "CXUI Loader"
 	},
-  "CXUI MultiGauge": {
+	"CXUI MultiGauge": {
 		"prefix": "cxui-multigauge",
 		"body": [
-      "<cxui-multi-gauge",
-      "\t[data]=\"${1:gaugeData}\"",
-      "\t[selectedIndex]=\"0\"",
-      "\t(selectGauge)=\"${2:onSelectGauge(\\$event)}\"",
-      "></cxui-multi-gauge>"
+			"<cxui-multi-gauge",
+			"\t[data]=\"${1:gaugeData}\"",
+			"\t[selectedIndex]=\"0\"",
+			"\t(selectGauge)=\"${2:onSelectGauge(\\$event)}\"",
+			"></cxui-multi-gauge>"
 		],
 		"description": "CXUI MultiGauge"
 	},
-  "CXUI MultiTrendline": {
+	"CXUI MultiTrendline": {
 		"prefix": "cxui-multitrendline",
 		"body": [
-      "<cxui-multi-trendline",
-         "\t[data] = \"${1}\"",
-         "\t[width]= \"${2:100}\"",
-         "\t[height]= \"${3:96}\"",
-      "></cxui-multi-trendline>"
+			"<cxui-multi-trendline",
+			"\t[data] = \"${1}\"",
+			"\t[width]= \"${2:100}\"",
+			"\t[height]= \"${3:96}\"",
+			"></cxui-multi-trendline>"
 		],
 		"description": "CXUI MultiTrendline"
 	},
-  "CXUI Paginator": {
+	"CXUI Paginator": {
 		"prefix": "cxui-paginator",
 		"body": [
-      "<cxui-paginator",
-         "\t[page]=\"${1:currentPage}\"",
-         "\t[limit]=\"${2:limit}\"",
-         "\t[totalItems]=\"${3:total}\"",
-         "\t(onPageChanged)=\"${4:onPageChanged(\\$event)}\"",
-      "></cxui-paginator>"
+			"<cxui-paginator",
+			"\t[page]=\"${1:currentPage}\"",
+			"\t[limit]=\"${2:limit}\"",
+			"\t[totalItems]=\"${3:total}\"",
+			"\t(onPageChanged)=\"${4:onPageChanged(\\$event)}\"",
+			"></cxui-paginator>"
 		],
 		"description": "CXUI Paginator"
 	},
-  "CXUI Search": {
+	"CXUI Search": {
 		"prefix": "cxui-search",
 		"body": [
-      "<cxui-search",
-         "\t[placeholder]=\"${1:placeholder}\"",
-         "\t[searchText]=\"${2:searchText}\" <!-- Remove for default searchText to be empty-->",
-         "\t(onUpdate)=\"${3:onUpdate(\\$event)}\"",
-         "\t(onEnter)=\"${4:onEnter(\\$event)}\"",
-      "></cxui-search>"
+			"<cxui-search",
+			"\t[placeholder]=\"${1:placeholder}\"",
+			"\t[searchText]=\"${2:searchText}\" <!-- Remove for default searchText to be empty-->",
+			"\t(onUpdate)=\"${3:onUpdate(\\$event)}\"",
+			"\t(onEnter)=\"${4:onEnter(\\$event)}\"",
+		"></cxui-search>"
 		],
 		"description": "CXUI Search"
 	},
-  "CXUI Table Header": {
+	"CXUI Table Header": {
 		"prefix": "cxui-table-header",
 		"body": [
-      "<cxui-table-header",
-         "\t[title]=\"${1:tableTitle}\"",
-         "\t[subTitle]=\"${2:paginationText}\"",
-      ">",
-         "\t<ng-container selector=\"actionItems\">",
-            "\t\t<!-- Place components here to appear on the right of the header eg: 'cxui-search' -->",
-         "\t</ng-container>",
-      "</cxui-table-header>"
+			"<cxui-table-header",
+			"\t[title]=\"${1:tableTitle}\"",
+			"\t[subTitle]=\"${2:paginationText}\"",
+			">",
+			"\t<ng-container selector=\"actionItems\">",
+			"\t\t<!-- Place components here to appear on the right of the header eg: 'cxui-search' -->",
+			"\t</ng-container>",
+			"</cxui-table-header>"
 		],
 		"description": "CXUI Table Header"
 	},
-  "CXUI Table": {
+	"CXUI Table": {
 		"prefix": "cxui-table",
 		"body": [
-      "<cxui-table",
-      "\t[options]=\"${1:tableOptions}\"",
-      "\t[data]=\"${2:tableData}\"",
-      "\t(sortingChanged)=\"${3:updateSortedData(\\$event)}\"",
-      "\t(tableRowClicked)=\"${4:selectTableRow(\\$event)}\"",
-      "></cxui-table>"
+			"<cxui-table",
+			"\t[options]=\"${1:tableOptions}\"",
+			"\t[data]=\"${2:tableData}\"",
+			"\t(sortingChanged)=\"${3:updateSortedData(\\$event)}\"",
+			"\t(tableRowClicked)=\"${4:selectTableRow(\\$event)}\"",
+			"></cxui-table>"
 		],
 		"description": "CXUI Table"
 	},
-  "CXUI Table with menu": {
+	"CXUI Table with menu": {
 		"prefix": "cxui-table-with-menu",
 		"body": [
-      "<cxui-table-with-menu",
-      "\t[options]=\"${1:tableOptions}\"",
-      "\t[data]=\"${2:tableData}\"",
-      "\t(sortingChanged)=\"${3:updateSortedData(\\$event)}\"",
-      "\t(selectMenuOption)=\"${4:selectMenuOption(\\$event)}\"",
-      "\t(tableRowClicked)=\"${5:selectTableRow(\\$event)}\"",
-      "></cxui-table-with-menu>"
+			"<cxui-table-with-menu",
+			"\t[options]=\"${1:tableOptions}\"",
+			"\t[data]=\"${2:tableData}\"",
+			"\t(sortingChanged)=\"${3:updateSortedData(\\$event)}\"",
+			"\t(selectMenuOption)=\"${4:selectMenuOption(\\$event)}\"",
+			"\t(tableRowClicked)=\"${5:selectTableRow(\\$event)}\"",
+			"></cxui-table-with-menu>"
 		],
 		"description": "CXUI Table"
-   },
-  "CXUI Tabs": {
+	 },
+	"CXUI Tabs": {
 		"prefix": "cxui-tabs",
 		"body": [
-      "<cxui-tabs",
-      "\t[activeTabIndex]=\"${1:activeTabIndex}\"",
-      "\t(selectTab)=\"${2:onSelectTab(\\$event)}\"",
-      ">",
-      "\t<cxui-tab label=\"${3:Tab 1}\">",
-      "\t\t<span>Content for tab 1</span>",
-      "\t</cxui-tab>",
-      "<!-- Note you can also provide a <ng-template> with the cxuiTabLabel directive -->",
-      "\t<cxui-tab>",
-      "\t\t<ng-template cxuiTabLabel>Tab 2</ng-template>",
-      "\t\tspan>Content for tab 2</span>",
-      "\t</cxui-tab>",
-      "</cxui-tabs>"
+			"<cxui-tabs",
+			"\t[activeTabIndex]=\"${1:activeTabIndex}\"",
+			"\t(selectTab)=\"${2:onSelectTab(\\$event)}\"",
+			">",
+			"\t<cxui-tab label=\"${3:Tab 1}\">",
+			"\t\t<span>Content for tab 1</span>",
+			"\t</cxui-tab>",
+			"<!-- Note you can also provide a <ng-template> with the cxuiTabLabel directive -->",
+			"\t<cxui-tab>",
+			"\t\t<ng-template cxuiTabLabel>Tab 2</ng-template>",
+			"\t\tspan>Content for tab 2</span>",
+			"\t</cxui-tab>",
+			"</cxui-tabs>"
 		],
 		"description": "CXUI Tabs"
 	},
-  "CXUI Visual Filter": {
+	"CXUI Visual Filter": {
 		"prefix": "cxui-visual-filter",
 		"body": [
-      "<cxui-visual-filter",
-      "\t[visualCategories]=\"${1:visualCategories}\"",
-      "\t(visualCategoriesChange)=\"${2:visualCategoriesChange(\\$event)}\"",
-      "\t[visualFilters]=\"${3:visualFilters}\"",
-      "\t(visualFiltersChange)=\"${4:visualFiltersChange(\\$event)}\"",
-      "\t(clearFilters)=\"${5:clearFilters(\\$event)}\"",
-      "></cxui-visual-filter>"
+			"<cxui-visual-filter",
+			"\t[visualCategories]=\"${1:visualCategories}\"",
+			"\t(visualCategoriesChange)=\"${2:visualCategoriesChange(\\$event)}\"",
+			"\t[visualFilters]=\"${3:visualFilters}\"",
+			"\t(visualFiltersChange)=\"${4:visualFiltersChange(\\$event)}\"",
+			"\t(clearFilters)=\"${5:clearFilters(\\$event)}\"",
+			"></cxui-visual-filter>"
 		],
 		"description": "CXUI Visual Filter"
 	},
-  "CXUI Time Range": {
+	"CXUI Time Range": {
 		"prefix": "cxui-time-range",
 		"body": [
-      "<cxui-time-range",
-      "\t[timeRange]=\"${1:timeRange}\"",
-      "\t[selectedTimeRange]=\"${2:selectedTimeRange}\"",
-      "\t[items]=\"${3:timeRangeItems}\"",
-      "\t(clickItem)=\"${4:clickTimeRangeItem(\\$event)}\"",
-      "\t(selectTimeRange)=\"${5:selectTimeRange(\\$event)}\"",
-      "></cxui-time-range>"
+			"<cxui-time-range",
+			"\t[timeRange]=\"${1:timeRange}\"",
+			"\t[selectedTimeRange]=\"${2:selectedTimeRange}\"",
+			"\t[items]=\"${3:timeRangeItems}\"",
+			"\t(clickItem)=\"${4:clickTimeRangeItem(\\$event)}\"",
+			"\t(selectTimeRange)=\"${5:selectTimeRange(\\$event)}\"",
+			"></cxui-time-range>"
 		],
 		"description": "CXUI Time Range"
-   },
-  "CXUI View Manager": {
+	 },
+	"CXUI View Manager": {
 		"prefix": "cxui-view-manager",
 		"body": [
-         "<cxui-visual-filter",
-      "\t[visualCategories]=\"${1:visualCategories}\"",
-      "\t(visualCategoriesChange)=\"${2:visualCategoriesChange(\\$event)}\"",
-      "\t[visualFilters]=\"${3:visualFilters}\"",
-      "\t(visualFiltersChange)=\"${4:visualFiltersChange(\\$event)}\"",
-      "\t(clearFilters)=\"${5:clearFilters(\\$event)}\"",
-      "></cxui-visual-filter>",
-      "<cxui-table-header",
-         "\t[title]=\"${6:tableTitle}\"",
-         "\t[subTitle]=\"${7:paginationText}\"",
-      ">",
-         "\t<ng-container selector=\"actionItems\">",
-            "\t\t<!-- Place components here to appear on the right of the header eg: 'cxui-search' -->",
-         "\t</ng-container>",
-      "</cxui-table-header>",
-      "<cxui-table-with-menu",
-      "\t[options]=\"${8:tableOptions}\"",
-      "\t[data]=\"${9:tableData}\"",
-      "\t(sortingChanged)=\"${10:updateSortedData(\\$event)}\"",
-      "\t(selectMenuOption)=\"${11:selectMenuOption(\\$event)}\"",
-      "\t(tableRowClicked)=\"${12:selectTableRow(\\$event)}\"",
-      "></cxui-table-with-menu>",
-      "<cxui-paginator",
-         "\t[page]=\"${13:currentPage}\"",
-         "\t[limit]=\"${14:limit}\"",
-         "\t[totalItems]=\"${15:total}\"",
-         "\t(onPageChanged)=\"${16:onPageChanged(\\$event)}\"",
-      "></cxui-paginator>"
+			"<cxui-visual-filter",
+			"\t[visualCategories]=\"${1:visualCategories}\"",
+			"\t(visualCategoriesChange)=\"${2:visualCategoriesChange(\\$event)}\"",
+			"\t[visualFilters]=\"${3:visualFilters}\"",
+			"\t(visualFiltersChange)=\"${4:visualFiltersChange(\\$event)}\"",
+			"\t(clearFilters)=\"${5:clearFilters(\\$event)}\"",
+			"></cxui-visual-filter>",
+			"<cxui-table-header",
+			"\t[title]=\"${6:tableTitle}\"",
+			"\t[subTitle]=\"${7:paginationText}\"",
+			">",
+			"\t<ng-container selector=\"actionItems\">",
+			"\t\t<!-- Place components here to appear on the right of the header eg: 'cxui-search' -->",
+			"\t</ng-container>",
+			"</cxui-table-header>",
+			"<cxui-table-with-menu",
+			"\t[options]=\"${8:tableOptions}\"",
+			"\t[data]=\"${9:tableData}\"",
+			"\t(sortingChanged)=\"${10:updateSortedData(\\$event)}\"",
+			"\t(selectMenuOption)=\"${11:selectMenuOption(\\$event)}\"",
+			"\t(tableRowClicked)=\"${12:selectTableRow(\\$event)}\"",
+			"></cxui-table-with-menu>",
+			"<cxui-paginator",
+			"\t[page]=\"${13:currentPage}\"",
+			"\t[limit]=\"${14:limit}\"",
+			"\t[totalItems]=\"${15:total}\"",
+			"\t(onPageChanged)=\"${16:onPageChanged(\\$event)}\"",
+			"></cxui-paginator>"
 		],
 		"description": "CXUI View Manager"
-   }
+	 }
 
 }
