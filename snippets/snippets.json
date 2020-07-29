@@ -87,7 +87,7 @@
 			"\t[searchText]=\"${2:searchText}\" <!-- Remove for default searchText to be empty-->",
 			"\t(onUpdate)=\"${3:onUpdate(\\$event)}\"",
 			"\t(onEnter)=\"${4:onEnter(\\$event)}\"",
-		"></cxui-search>"
+			"></cxui-search>"
 		],
 		"description": "CXUI Search"
 	},
