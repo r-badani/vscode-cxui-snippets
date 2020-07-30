@@ -25,14 +25,14 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 | `cxui-loader`         | renders html for [Loader](http://cxui-components.cisco.com/?path=/docs/components-loader-default--loader)                            |
 | `cxui-multigauge`         | renders html for [MultiGauge](http://cxui-components.cisco.com/?path=/docs/components-multigauge-default--default-story)                            |
 | `cxui-multitrendline`         | renders html for [MultiTrendline](http://cxui-components.cisco.com/?path=/docs/components-multitrendline-default-multi-line--default-multi-line)                            |
-| `cxui-paginator`         | renders html for [Paginator](http://cxui-components.cisco.com/path=/docs/components-paginator--basic)                            |
+| `cxui-paginator`         | renders html for [Paginator](http://cxui-components.cisco.com/path=/?docs/components-paginator--basic)                            |
 | `cxui-search`         | renders html for [Search](http://cxui-components.cisco.com/?path=/docs/components-search-basic--basic)                            |
 | `cxui-table-header`         | renders html for [Table Header](http://cxui-components.cisco.com/?path=/docs/components-tableheader-basic--basic)                            |
 | `cxui-table`         | renders html for [Table](http://cxui-components.cisco.com/?path=/docs/components-table-default--default-story)                            |
 | `cxui-table-with-menu`         | renders html for [Table with menu](http://cxui-components.cisco.com/?path=/docs/components-table-kebab-more-options--kebab-more-options)                            |
 | `cxui-tabs`         | renders html for [Tabs](http://cxui-components.cisco.com/?path=/docs/components-tabs-default--tabs-block)                            |
 | `cxui-time-range`         | renders html for [Time Range](http://cxui-components.cisco.com/?path=/docs/components-timerange-default--time-range)                            |
-| `cxui-visual-filter`         | renders html for [Visual Filter](http://cxui-components.cisco.com//?path=/docs/components-visual-filters-default--default-story)                            |
+| `cxui-visual-filter`         | renders html for [Visual Filter](http://cxui-components.cisco.com/?path=/docs/components-visual-filters-default--default-story)                            |
 | `cxui-view-manager`         | renders html for `cxui-visual-filter` + `cxui-table-header` + `cxui-table-with-menu` + `cxui-paginator`                |
 
 
